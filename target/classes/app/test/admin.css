@@ -1,0 +1,84 @@
+
+#body{
+-fx-background-color:white;
+}
+
+#navBar{
+-fx-background-color:#00BFFF;
+}
+
+
+
+.btn{
+-fx-background-color:#00BFFF;
+}
+.btn:hover{
+-fx-background-color:#7B68EE;
+}
+
+#adminIcone{
+-fx-background-image:url('../image/admin.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 60 60;
+
+}
+
+
+#icon{
+-fx-background-image:url('../image/Home.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+#icon2{
+-fx-background-image:url('../image/teacher.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+#icon3{
+-fx-background-image:url('../image/book.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+
+#icon4{
+-fx-background-image:url('../image/classe.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+
+#icon5{
+-fx-background-image:url('../image/calendrier.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+
+#icon6{
+-fx-background-image:url('../image/cours.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+#icon7{
+-fx-background-image:url('../image/timing.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+
+#icon8{
+-fx-background-image:url('../image/rechercher.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 20 30;
+}
+
+#logo{
+-fx-background-image:url('../image/logo.png');
+-fx-background-repeat: stretch;
+-fx-background-size: 50 50;
+}
+
+#block1{
+-fx-background-color:blue;
+
+}
+#searchBox{
+-fx-background-image:url('../image/rechercher.png');
+}

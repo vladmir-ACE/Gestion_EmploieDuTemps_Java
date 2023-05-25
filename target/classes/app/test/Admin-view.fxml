@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="531.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.test.AdminView">
+   <children>
+      <AnchorPane id="navBar" layoutY="77.0" prefHeight="566.0" prefWidth="206.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutY="81.0" mnemonicParsing="false" onMouseClicked="#Home" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="HOME" textAlignment="CENTER" textFill="WHITE" />
+            <Pane id="icon" layoutX="30.0" layoutY="88.0" prefHeight="31.0" prefWidth="21.0" />
+            <Button layoutY="126.0" mnemonicParsing="false" onMouseClicked="#Enseignant" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="ENSEIGNANT" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="171.0" mnemonicParsing="false" onMouseClicked="#matiere" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="MATIERE" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="216.0" mnemonicParsing="false" onMouseClicked="#classe" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="CLASSE" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="261.0" mnemonicParsing="false" onMouseClicked="#annee" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="        ANNEE-SCOLAIRE" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="306.0" mnemonicParsing="false" onMouseClicked="#cours" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="COURS" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="351.0" mnemonicParsing="false" onMouseClicked="#timing" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="       Emploie du Temps" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="396.0" mnemonicParsing="false" onMouseClicked="#SE" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="              Recherche  enseignant" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutY="441.0" mnemonicParsing="false" onMouseClicked="#SM" prefHeight="45.0" prefWidth="205.0" styleClass="btn" text="       Recherche Matiere" textAlignment="CENTER" textFill="WHITE" />
+            <Pane id="icon2" layoutX="30.0" layoutY="133.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon3" layoutX="30.0" layoutY="178.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon4" layoutX="30.0" layoutY="223.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon5" layoutX="30.0" layoutY="274.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon6" layoutX="30.0" layoutY="313.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon7" layoutX="30.0" layoutY="358.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon8" layoutX="30.0" layoutY="403.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="icon8" layoutX="30.0" layoutY="448.0" prefHeight="31.0" prefWidth="21.0" />
+            <Pane id="logo" layoutX="14.0" layoutY="16.0" prefHeight="59.0" prefWidth="59.0" />
+            <Label layoutX="73.0" layoutY="33.0" text="Timing Manager">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="206.0" prefHeight="80.0" prefWidth="533.0" style="-fx-background-color: #7B68EE;" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Pane id="adminIcone" layoutX="417.0" layoutY="11.0" prefHeight="59.0" prefWidth="59.0">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Pane>
+            <Label layoutX="238.0" layoutY="25.0" prefHeight="31.0" prefWidth="171.0" style="-fx-alignment: center;" text="Welcome Admin" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </Label>
+         </children></Pane>
+      <AnchorPane fx:id="root" layoutX="208.0" layoutY="79.0" prefHeight="451.0" prefWidth="10000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="206.66666666666663" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0" />
+   </children>
+</AnchorPane>

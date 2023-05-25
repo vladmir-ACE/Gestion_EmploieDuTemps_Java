@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.test.Home">
+   <children>
+      <TableView fx:id="tab" layoutX="-2.0" layoutY="124.0" prefHeight="279.0" prefWidth="742.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tabEn" prefWidth="225.99999499320984" style="-fx-background-color: #00BFFF; -fx-border-style: solid;" text="Enseignant" />
+          <TableColumn fx:id="tabMatiere" prefWidth="273.3333282470703" style="-fx-background-color: #00BFFF; -fx-border-style: solid;" text="Matière" />
+            <TableColumn fx:id="tabHeure" minWidth="0.0" prefWidth="243.33334350585938" style="-fx-background-color: #00BFFF; -fx-border-style: solid;" text="Heure" />
+        </columns>
+      </TableView>
+      <Pane layoutX="168.0" layoutY="36.0" prefHeight="64.0" prefWidth="402.0" style="-fx-background-color: #00BFFF; -fx-border-color: orange;" AnchorPane.leftAnchor="168.0">
+         <children>
+            <Label layoutX="71.0" layoutY="9.0" prefHeight="47.0" prefWidth="244.0" style="-fx-alignment: center;" text="EMPLOIE DU TEMPS DE LA JOURNNE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="27.0" style="-fx-background-color: red;" text="&gt;HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="619.0" layoutY="87.0" mnemonicParsing="false" onAction="#Afficher" style="-fx-background-color: #00BFFF;" text="AFFICHER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

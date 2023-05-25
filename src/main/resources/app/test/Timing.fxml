@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.test.Timing">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="2.0" prefHeight="449.0" prefWidth="1150.0">
+         <children>
+            <Label layoutX="40.0" layoutY="82.0" prefHeight="25.0" prefWidth="157.0" style="-fx-background-color: red;" text="&gt;Emploi du Temps" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Pane layoutX="58.0" layoutY="162.0" prefHeight="251.0" prefWidth="315.0" style="-fx-border-color: blue;">
+               <children>
+                  <Text layoutX="19.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enseignant:" />
+                  <Button fx:id="save" layoutX="206.0" layoutY="212.0" mnemonicParsing="false" onAction="#Add" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #2E8B57;" text="SAVE" />
+                  <Label layoutX="18.0" layoutY="101.0" text="Heure début:" />
+                  <Label layoutX="18.0" layoutY="134.0" text="Heure de Fin:" />
+                  <ComboBox fx:id="Enseignant" layoutX="100.0" layoutY="25.0" prefHeight="25.0" prefWidth="175.0" />
+                  <ComboBox fx:id="Cours" layoutX="100.0" layoutY="62.0" prefHeight="25.0" prefWidth="175.0" />
+                  <Text layoutX="19.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cours" />
+                  <Text layoutX="23.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classe:" />
+                  <ComboBox fx:id="Classe" layoutX="100.0" layoutY="168.0" prefHeight="25.0" prefWidth="175.0" />
+                  <TextField fx:id="Debut" layoutX="100.0" layoutY="97.0" prefHeight="25.0" prefWidth="175.0" />
+                  <TextField fx:id="Fin" layoutX="100.0" layoutY="130.0" prefHeight="25.0" prefWidth="175.0" />
+                  <Button layoutX="22.0" layoutY="212.0" mnemonicParsing="false" onAction="#update" style="-fx-background-color: orange;" text="Update" />
+                  <Button layoutX="123.0" layoutY="212.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: red;" text="Delete" />
+               </children>
+            </Pane>
+            <TableView fx:id="table" layoutX="473.0" layoutY="172.0" prefHeight="200.0" prefWidth="575.0" AnchorPane.rightAnchor="116.0">
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="75.0" text="#" />
+                  <TableColumn fx:id="tabEn" prefWidth="113.33330535888672" text="Enseignat" />
+                  <TableColumn fx:id="tabCours" prefWidth="95.99995422363281" text="Cours" />
+                  <TableColumn fx:id="tabDebut" prefWidth="113.3333740234375" text="Date Début" />
+                  <TableColumn fx:id="tabFin" prefWidth="86.66668701171875" text="Date Fin" />
+                  <TableColumn fx:id="tabSalle" prefWidth="86.66668701171875" text="Salle" />
+               </columns>
+            </TableView>
+            <Button layoutX="849.0" layoutY="136.0" mnemonicParsing="false" onAction="#Afficher" style="-fx-background-color: #00BFFF;" text="AFFICHER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="load" layoutX="306.0" layoutY="124.0" mnemonicParsing="false" onAction="#Loading" text="Load Data" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

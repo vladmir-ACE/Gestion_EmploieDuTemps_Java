@@ -1,0 +1,45 @@
+
+
+#body{
+-fx-background-color:white;
+}
+#box {
+-fx-background-color:blue;
+}
+#box2 {
+-fx-background-color:red;
+}
+
+#div{
+-fx-background-color:orange;
+}
+
+#Auth_img{
+ -fx-background-image:url('../image/Auth.gif');
+ -fx-background-repeat: stretch;
+ -fx-background-size: 500 600;
+}
+#LogInDiv{
+  -fx-border-style:solid;
+  -fx-border: 2 solid black;
+}
+
+#btn{
+  -fx-font-size:20px;
+  -fx-color:white;
+  -fx-background-color:#00BFFF;
+  -fx-border-radius:10px;
+
+}
+
+#Avatar{
+-fx-background-image:url('../image/avatar.gif');
+-fx-background-repeat: stretch;
+-fx-background-size: 200 160;
+}
+
+#Text{
+-fx-text-color:#00BFFF;
+-fx-font-size:20;
+
+}
